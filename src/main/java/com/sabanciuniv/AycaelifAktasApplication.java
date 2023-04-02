@@ -1,0 +1,13 @@
+package com.sabanciuniv;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AycaelifAktasApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AycaelifAktasApplication.class, args);
+	}
+
+}
