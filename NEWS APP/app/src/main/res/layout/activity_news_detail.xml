@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".NewsDetailActivity">
+
+
+        <ImageView
+            android:id="@+id/imgDetails"
+            android:layout_width="257dp"
+            android:layout_height="222dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toTopOf="@+id/txtTitleDetail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/txtDateDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="200dp"
+            android:text="DATE"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textNews"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtTitleDetail" />
+
+        <TextView
+            android:id="@+id/txtTitleDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="32dp"
+            android:scaleType="fitCenter"
+            android:text="TİTLE"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toTopOf="@+id/txtDateDetail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgDetails" />
+
+        <TextView
+            android:id="@+id/textNews"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="50dp"
+            android:scaleType="fitCenter"
+            android:text="TEXT"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtDateDetail" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+
+
+
+
