@@ -1,1 +1,0 @@
-I code a Web API that manages money transactions between accounts for a bank. Accounts can be created and transactions can be made from one account to the other. All communications must be through HTTP protocol, and data must be exchanged in JSON format.
