@@ -1,6 +1,2 @@
-Creating a  Android mobile application for the News API.
 
-When starts, display tabs for each news category. 
-When user selects a category using tabs, display the list of news accordingly (image, title and text of news).
-When a news item is selected from the MainActivity, app navigates to News Details Activity displaying the details of the news.
-When the “View Comments” button clicked from News Details Activity, the comments activity is displayed. 
+I created an Android Application that uses News API. When starts, display tabs for each news category.  When the user selects a category using tabs, display the list of news accordingly (image, title, and text of news). When a news item is selected from the app displays the details of the news. When the “View Comments” button is clicked from News Detail the comments for that news are shown. Appbar contains a "pen" button to navigate to the Post Comment page. I used Android Studio and Java programming language to create the App.
